@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "anvil_plus",
+	"version": "${version}",
+	"name": "Anvil+",
+	"description": "AnvilPlus - a mod that allows you to combine Protection 4 and Protection 4 in an anvil and get Protection 5.(And it doesnt breaks villagers, they are only sell items with max level of 4!). Ru: AnvilPlus - это мод позволяющий комбинировать Защиту 4 и Защиту 4 в наковальне и получать при этом Защиту 5! (и так со всеми книгами в игре). Также при этом мод не ломает жителей! Они буду продавать максимум 4 уровень каждого зачарования.",
+	"authors": [
+		"Sahsa1_1",
+		"(with help of one person on Discord)"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/project/anvil_plus",
+		"sources": "https://github.com/Novikaleksandr1406/AnvilPlus/"
+	},
+	"license": "GPLv3",
+	"icon": "assets/anvil_plus/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.sahsa1_1.anvil_plus.Anvil"
+		],
+		"fabric-datagen": [
+			"com.sahsa1_1.anvil_plus.AnvilDataGenerator"
+		]
+	},
+	"mixins": [
+		"anvil_plus.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.1",
+		"minecraft": "~1.20.4",
+		"java": ">=16",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

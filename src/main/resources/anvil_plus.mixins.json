@@ -1,0 +1,37 @@
+{
+  "required": true,
+  "package": "com.sahsa1_1.anvil_plus.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "NoExpensiveAnvilGUIMixin",
+    "NoExpensiveAnvilMixin",
+    "VillagersBookTradesFixMixin",
+    "ZEfficiencyMixin",
+    "ZFireAspectMixin",
+    "ZFrostWalkerMixin",
+    "ZImpalingMixin",
+    "ZKnockbackMixin",
+    "ZLootingMixin",
+    "ZLoyaltyMixin",
+    "ZLureMixin",
+    "ZMendingMixin",
+    "ZPiercingMixin",
+    "ZPowerMixin",
+    "ZProtectionMixin",
+    "ZPunchMixin",
+    "ZRespirationMixin",
+    "ZRiptideMixin",
+    "ZSharpnessMixin",
+    "ZSoulSpeedMixin",
+    "ZSweepingEdgeMixin",
+    "ZSwiftSneakMixin",
+    "ZThornsMixin",
+    "ZUnbreakingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "NoExpensiveAnvilGUIMixin"
+  ]
+}
